@@ -1,0 +1,61 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 0.8rem;
+    background-color: rgb(245, 240, 240);
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.checked{
+    color:teal;
+}
+.product_code,.cust_info{
+    color:teal;
+    margin-bottom: 0px;
+    font-size: 1.6rem;
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+.right_div{
+    background-color:teal;
+    perspective-origin: left;
+    margin-right: 5%;
+    margin-left: 0;
+    padding-left: 0;
+}
+/*.cust_info
+{
+    color:teal;
+    margin-bottom: 4px;
+    font-size: 1.6rem;
+    font-family: monospace;
+    font-weight: bold;
+}*/
+.price{
+    color:crimson;
+    padding-left: 5px;
+}
+.t_price{
+    margin-top: 3px;
+    background-color: burlywood;
+    background-size: cover;
+}
+.item{
+    color: teal;
+    
+}
+.status{
+    color:teal;
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+}
+.star{
+    font-size: 1.1rem;
+}

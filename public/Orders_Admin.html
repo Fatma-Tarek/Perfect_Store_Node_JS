@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/Orders_Admin.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<!--<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>-->
+<!--<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
+</head>
+  <body>
+    <header>
+        <nav class="navbar pr-5 pl-5" style="background-color: teal">
+  
+            <h3 class="navbar-brand m-0" style="color :white">
+                <i class="bi bi-discord px-2" style="color: yellow;"></i>Gomla
+            </h3>
+            <ul class="nav justify-content-end">
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link" style="color:white" href="Register.html" ><ins id="reg">Register</ins></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <p class="nav-link" style="color:yellow" id="welc"></p>
+              </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" style="color:white" href="index.html" ><ins>Home</ins></a>
+              </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white" href="customer_login.html" ><ins id="log">Login</ins></a>
+                </li>
+                               <li class="nav-item">
+                      <a class="nav-link" style="color:white" href="#" ><i class="fas fa-user fa-1x"style="color: yellow;visibility: hidden;" id="profile"></i></a>
+                  </li>
+            </ul>
+        </nav>
+    </header>
+<!----------------------------------------------------------------------------------------------------------------------->
+<div class="container">
+    <div class="d-flex justify-content-around py-4 p-0 ml-0">
+
+        <div class="col-md-4 right_div  ">
+              <div class="container">
+	<div class="ml-4 my-5 row" style="width:80%">
+            <div class="span12">
+    		<table class="table-condensed table-bordered table-striped  " style="background-color: darkgray; width:20%">
+                <thead>
+                    <tr>
+                      <th colspan="7">
+                        <span class="btn-group">
+                            <a class="btn"><i class="icon-chevron-left"></i></a>
+                        	<a class="btn active">February 2012</a>
+                        	<a class="btn"><i class="icon-chevron-right"></i></a>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                        <th>Su</th>
+                        <th>Mo</th>
+                        <th>Tu</th>
+                        <th>We</th>
+                        <th>Th</th>
+                        <th>Fr</th>
+                        <th>Sa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="muted">29</td>
+                                                <td class="muted">30</td>
+                        <td class="muted">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td class="btn-primary"><strong>20</strong></td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td class="muted">1</td>
+                        <td class="muted">2</td>
+                        <td class="muted">3</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+	</div>
+    <div class="ml-3 "><img src="img/sat5.jpg" ></div>
+    </div>
+           
+             
+
+        </div>
+
+         
+        
+        <div class="col-md-8  d-flex flex-column">
+          
+            <!--<div class="d-flex justify-content-start align-items-center my-3  bg-light py-3 shadow-sm product pro_card">
+               
+                <div class="col-2">
+                    <p class="product_code">ORDER ITEMS</p>
+                    <a class="item"></a>
+                </div>
+
+                <div class=" col-3 "style="font-size: 0.9rem;">  
+                    <div style="color:teal"><p class="product_code">$300.00</p>L. A. Girl Pro Conceal HD Concealer- 991- Yellow Corrector 8g</div>
+                </div>
+
+                <div class=" col-4 ">
+                    <div class="line">
+                        <div class="cust_info">customer</div>
+                        <div><i class="bi bi-envelope-fill icon_style"></i>: shrooktageldien@gmail.com</div>
+                        <div><i class="bi bi-geo-alt-fill icon_style"></i>: 23 OsmanBnAfan Damanhour</div>
+                        <div><i class="bi bi-telephone-fill icon_style"></i>: 01015980482</div>
+                        <div class="m-1 p-0 line text-secondary"style="font-size: 0.9rem;">
+    
+                        </div>
+                        
+                     </div>
+                </div>
+                
+                <div class="col-3 process">
+                    <div class="container row">
+                         <div class="status"><p>RATE</p></div>
+                        <div class="d-inline">
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="far fa-star fa-xs star"></span>
+                            <span class="far fa-star fa-xs star"></span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>-->
+                     <!--------------------------------first card----------------------------------->
+           <div class="border mt-0 pt-0">
+           <div class="d-flex justify-content-start align-items-center my-3  bg-light py-3 shadow-sm product pro_card">
+               
+                <div class="col-4">
+                    <br>
+                    <p class="product_code">ORDER ITEMS</p>
+                    <a class="item">item - 114 : </a><span class="price"> $300.00</span><br>
+                    <a class="item">item - 113 : </a><span  class="price"> $400.00</span>
+                    <p class="t_price price">Total price : $700.00</p>
+                </div>
+
+
+                <div class="col-5">
+                        <p class="cust_info">CUSTOMER</p>
+                        <div><i class="bi bi-envelope-fill icon_style"></i>: shrooktageldien@gmail.com</div>
+                        <div><i class="bi bi-geo-alt-fill icon_style"></i>: 23 OsmanBnAfan Damanhour</div>
+                        <div><i class="bi bi-telephone-fill icon_style"></i>: 01015980482</div>
+                        <div class="m-1 p-0 line text-secondary"style="font-size: 0.9rem;">
+    
+                        </div>
+                        
+                     
+                </div>
+                
+                <div class="col-3 process">
+                    <div class="container row">
+                         <div class="status d-flex justify-content-center"><p>RATE</p></div>
+                        <div class="d-inline">
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="far fa-star fa-xs star"></span>
+                            <span class="far fa-star fa-xs star"></span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+                      <!--------------------------------second card----------------------------------->
+         <div class="d-flex justify-content-start align-items-center my-3  bg-light py-3 shadow-sm product pro_card">
+               
+                <div class="col-4">
+                    <br>
+                    <p class="product_code">ORDER ITEMS</p>
+                    <a class="item">item - 114 : </a><span class="price"> $300.00</span><br>
+                    <a class="item">item - 113 : </a><span  class="price"> $400.00</span>
+                    <p class="t_price price">Total price : $700.00</p>
+                </div>
+
+
+                <div class="col-5">
+                        <p class="cust_info">CUSTOMER</p>
+                        <div><i class="bi bi-envelope-fill icon_style"></i>: shrooktageldien@gmail.com</div>
+                        <div><i class="bi bi-geo-alt-fill icon_style"></i>: 23 OsmanBnAfan Damanhour</div>
+                        <div><i class="bi bi-telephone-fill icon_style"></i>: 01015980482</div>
+                        <div class="m-1 p-0 line text-secondary"style="font-size: 0.9rem;">
+    
+                        </div>
+                        
+                     
+                </div>
+                
+                <div class="col-3 process">
+                    <div class="container row">
+                         <div class="status d-flex justify-content-center"><p>RATE</p></div>
+                        <div class="d-inline">
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+                <!--------------------------------third card----------------------------------->
+
+             <div class="d-flex justify-content-start align-items-center my-3  bg-light py-3 shadow-sm product pro_card">
+               
+                <div class="col-4">
+                    <br>
+                    <p class="product_code">ORDER ITEMS</p>
+                    <a class="item">item - 114 : </a><span class="price"> $300.00</span><br>
+                    <a class="item">item - 113 : </a><span  class="price"> $400.00</span>
+                    <p class="t_price price">Total price : $700.00</p>
+                </div>
+
+
+                <div class="col-5">
+                        <p class="cust_info">CUSTOMER</p>
+                        <div><i class="bi bi-envelope-fill icon_style"></i>: shrooktageldien@gmail.com</div>
+                        <div><i class="bi bi-geo-alt-fill icon_style"></i>: 23 OsmanBnAfan Damanhour</div>
+                        <div><i class="bi bi-telephone-fill icon_style"></i>: 01015980482</div>
+                        <div class="m-1 p-0 line text-secondary"style="font-size: 0.9rem;">
+    
+                        </div>
+                        
+                     
+                </div>
+                
+                <div class="col-3 process">
+                    <div class="container row">
+                         <div class="status d-flex justify-content-center"><p>RATE</p></div>
+                        <div class="d-inline">
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="fa fa-star fa-xs checked star"></span>
+                            <span class="far fa-star fa-xs star"></span>
+                            <span class="far fa-star fa-xs star"></span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </div>
+</div>
+</div>
+
+
+
+<!-----------------------------------------------------------------------------------------------------------------------------> 
+<footer class="row py-3 pt3 border rounded mt-4 mr-5 ml-5" style="background-color: rgb(226, 224, 224)">
+    <div class="col-sm-6 ">
+        <p class="d-inline">Developed by: </p> <a href="#"> Carl Victor C.Fontanos</a> 
+        <div class="m-1"> 
+            <i class="fa fa-home mr-1" style="color:teal"></i>
+            <i class="fab fa-facebook-f mr-1" ></i>
+            <i class="fab fa-twitter mr-1" style="color:orange"></i>
+            <i class="fab fa-google-plus-g mr-1" style="color:rgb(207, 22, 22)"></i>
+            <i class="fab fa-linkedin-in mr-1" style="color:teal"></i>
+            <i class="fab fa-github mr-1" ></i>
+            <i class="far fa-envelope m-1"style="color:orange"></i>
+        </div>
+
+    </div>
+    
+    <div class="col-sm-6 " style="text-align: right">
+        <p class="d-inline">Copyright &copy </p> <a href="www.carlfontanos.com">www.carlfontanos.com</a>
+        <p class="m-1">All Rights Reserved</p>
+
+    </div>
+</footer>
+
+            
+<script src="script/orders.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+</body>            

@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 0.8rem;
+    background-color: rgb(245, 240, 240);
+}
+
+.checked{
+    color:teal;
+}
